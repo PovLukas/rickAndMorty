@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
